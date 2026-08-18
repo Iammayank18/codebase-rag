@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is this project about?",
+    "files": [
+      "example/mini-school/src/models/student.ts",
+      "example/mini-school/src/models/parent.ts",
+      "example/mini-school/src/routes/admin.ts"
+    ]
+  },
+  {
+    "question": "Where is authentication handled?",
+    "files": ["example/mini-school/src/middleware/requireRole.ts"]
+  },
+  {
+    "question": "How does authorization work and what roles are defined?",
+    "files": ["example/mini-school/src/middleware/requireRole.ts"]
+  },
+  {
+    "question": "Where is the payment or fee system?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "How are fees calculated for a student?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "What is the late penalty for overdue fees?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "How do you link a parent to a student?",
+    "files": [
+      "example/mini-school/src/services/linkParent.ts",
+      "example/mini-school/src/routes/admin.ts"
+    ]
+  },
+  {
+    "question": "What API routes are available?",
+    "files": ["example/mini-school/src/routes/admin.ts"]
+  },
+  {
+    "question": "What are the data models in this project?",
+    "files": [
+      "example/mini-school/src/models/student.ts",
+      "example/mini-school/src/models/parent.ts"
+    ]
+  },
+  {
+    "question": "What fields does a Student have?",
+    "files": ["example/mini-school/src/models/student.ts"]
+  },
+  {
+    "question": "What fields does a Parent have?",
+    "files": ["example/mini-school/src/models/parent.ts"]
+  },
+  {
+    "question": "How can I find all students in a specific class?",
+    "files": ["example/mini-school/src/models/student.ts"]
+  },
+  {
+    "question": "Can one parent be linked to multiple students?",
+    "files": [
+      "example/mini-school/src/services/linkParent.ts",
+      "example/mini-school/src/models/parent.ts"
+    ]
+  },
+  {
+    "question": "What happens if I try to link a parent that is already linked to a student?",
+    "files": ["example/mini-school/src/services/linkParent.ts"]
+  },
+  {
+    "question": "Is there a database or is data stored in memory?",
+    "files": [
+      "example/mini-school/src/models/student.ts",
+      "example/mini-school/src/models/parent.ts"
+    ]
+  },
+  {
+    "question": "What happens if an unauthenticated user tries to access admin routes?",
+    "files": ["example/mini-school/src/middleware/requireRole.ts"]
+  },
+  {
+    "question": "What happens if a non-admin user tries to access admin routes?",
+    "files": ["example/mini-school/src/middleware/requireRole.ts"]
+  },
+  {
+    "question": "How would I calculate how much a student owes after 4 unpaid months?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "Is there a way to check if a student's fees are overdue?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "What is the fee amount per month?",
+    "files": ["example/mini-school/src/services/fees.ts"]
+  },
+  {
+    "question": "What frameworks does this project use?",
+    "files": [
+      "example/mini-school/src/routes/admin.ts",
+      "example/mini-school/src/middleware/requireRole.ts"
+    ]
+  },
+  {
+    "question": "Which files are unused or exported but never imported?",
+    "files": [
+      "example/mini-school/src/models/student.ts",
+      "example/mini-school/src/services/fees.ts"
+    ]
+  },
+  {
+    "question": "How is the project structured — what is the directory layout?",
+    "files": [
+      "example/mini-school/src/models/student.ts",
+      "example/mini-school/src/models/parent.ts",
+      "example/mini-school/src/services/fees.ts",
+      "example/mini-school/src/services/linkParent.ts",
+      "example/mini-school/src/middleware/requireRole.ts",
+      "example/mini-school/src/routes/admin.ts"
+    ]
+  },
+  {
+    "question": "How does report card generated?",
+    "files": []
+  }
+]
