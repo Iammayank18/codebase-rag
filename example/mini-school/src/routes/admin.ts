@@ -6,7 +6,10 @@ export function registerAdminRoutes(router: any) {
   router.use(requireRole("admin"));
 
   router.post("/link", async (req: any, res: any) => {
-    const parent = await linkParentToStudent(req.body.parentId, req.body.studentId);
+    const parent = await linkParentToStudent(
+      req.body.parentId,
+      req.body.studentId,
+    );
     res.json(parent);
   });
 

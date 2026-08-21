@@ -9,12 +9,17 @@
     "ask": "node src/ask.ts",
     "eval": "node src/eval/run.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@openrouter/sdk": "^1.2.38",
+    "dotenv": "^17.4.2",
     "fast-glob": "^3.3.3",
     "openai": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0"
   }
 }

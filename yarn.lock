@@ -24,11 +24,18 @@
     fastq "^1.6.0"
 
 "@openrouter/sdk@^1.2.38":
-  version "1.2.38"
-  resolved "https://registry.yarnpkg.com/@openrouter/sdk/-/sdk-1.2.38.tgz#1a3f5f08199783a4264a2d25dcb657a3639fc545"
-  integrity sha512-qrduBQV37qfkOMTC9+EbIlIvCv6joPQWQsK/JYfJb642LWginyzwMGeyFHc3ZkOIatGgOE5JPXktf9DlEzLFcA==
+  version "1.2.42"
+  resolved "https://registry.yarnpkg.com/@openrouter/sdk/-/sdk-1.2.42.tgz#e8013872f3d7dae0c6014299b670c81d7a68c7ca"
+  integrity sha512-KBv6ICwzPElLKVJms+mxhEpSJ/YUeY/J2otkesDnlJLNZKwZqP7B6qri0sH5sRC6v0BdPjUonjbA+2PdOB1R3Q==
   dependencies:
     zod "^3.25.0 || ^4.0.0"
+
+"@types/node@^26.2.0":
+  version "26.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.2.0.tgz#5a4875a862fda8fdc57de8faa579bb81ecba1685"
+  integrity sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==
+  dependencies:
+    undici-types "~8.3.0"
 
 braces@^3.0.3:
   version "3.0.3"
@@ -36,6 +43,11 @@ braces@^3.0.3:
   integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
   dependencies:
     fill-range "^7.1.1"
+
+dotenv@^17.4.2:
+  version "17.4.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-17.4.2.tgz#c07e54a746e11eba021dd9e1047ced5afdc1c034"
+  integrity sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw==
 
 fast-glob@^3.3.3:
   version "3.3.3"
@@ -132,6 +144,11 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+undici-types@~8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.3.0.tgz#44e9fc9f3244648cdea35e4f9bb2d681e9410809"
+  integrity sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==
 
 "zod@^3.25.0 || ^4.0.0":
   version "4.4.3"
